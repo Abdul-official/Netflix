@@ -4,6 +4,7 @@
     }
     .container{
         width: 100%;
+        height: 60vh;
     }    
     nav img{
         width: 70px;
@@ -44,6 +45,15 @@
     
     }
 
+    .header-content{
+        position: absolute;
+        color: white;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top:70px;
+    }
+
     /* ------------second div ------*/
        /* -----img div------- */
     .title-bar{
@@ -52,7 +62,8 @@
     
     
     .title-bar img{
-        width: 70px;
+        width: 75px;
+        height: 140px;
         margin: 10px 0px 0px 10px;
         }
 
@@ -62,7 +73,7 @@
     }
     
     .box{
-        position: relative;
+        /* position: relative; */
         width: 100%;
         height: 100px;
         margin: 4px 10px;
@@ -97,7 +108,7 @@
     /* --------fourth div faq------- */
     .faq{
         width: 100%;
-        position: absolute;
+        /* position: absolute; */
         margin-top:16px;
     }
     .faq-service{
