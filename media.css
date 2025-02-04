@@ -2,6 +2,9 @@
     body{
         background-color: #000;
     }
+    .container{
+        width: 100%;
+    }    
     nav img{
         width: 70px;
     }
@@ -50,7 +53,7 @@
     
     .title-bar img{
         width: 70px;
-        margin: 0px 17px 0px 0px;
+        margin: 10px 0px 0px 10px;
         }
 
     /* -----third div box---- */
@@ -94,7 +97,8 @@
     /* --------fourth div faq------- */
     .faq{
         width: 100%;
-        margin-top: 40px;
+        position: absolute;
+        margin-top:16px;
     }
     .faq-service{
         width: 95%;
@@ -118,8 +122,8 @@
         font-size: 12px;
     }
     .faq input{
-        max-width: 300px;
-        margin: 20px 0px 0px 30px;
+        max-width: 250px;
+        margin: 20px 0px 0px 50px;
         height: 40px;
         background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
         border: 1px solid grey;
