@@ -108,7 +108,7 @@ nav img{
     font-family: "open sans",sans-serif;
     font-weight: 400;
     padding: 10px;
-    color: #ffff;
+    color: #b9b2b2;
 }
      /* -----------second div--------- */
 .second{
@@ -291,13 +291,14 @@ nav img{
 /* ---------footer--------- */
 
 .footer{
+    /* border: 1px solid red; */
     width: 100%;
     background-color: #000;
     margin-top: 80px;
 }
 
 .footer-service{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 .footer-service p{
