@@ -1,4 +1,4 @@
-@media only screen and (min-width : 350px) and (max-width : 420px) {
+@media only screen and (min-width : 601px) and (max-width : 900px) {
 
      
     .container{
@@ -9,19 +9,20 @@
 
    
    nav img{
-       width: 80px;
+       width: 120px;
    }
    
    .title-btn button{
-       padding:7px 10px;
+       padding:7px 15px;
        margin-left: 5px;
-       font-size: 10px;
+       font-size: 14px;
    }
    
          /* ___________header session_________ */
 
    .header-content{
-       width: 340px;
+       width: 550px;
+       max-width: 900px;
        position: absolute;
        color: white;
        top: 20%;
@@ -32,24 +33,24 @@
    
    .header-content h1{
        font-family: "Netflix-Bold", serif;
-       font-size: 30px;
-       font-weight: 900;
-       line-height: 35px;
-       width: 340px;
+       font-size: 45px;
+       font-weight: 500;
+       line-height: 45px;
+       width: 550px;
        text-align: center;
    }
    
    .header-content h3{
        font-family: "Netflix-Medium", serif;;
-       font-size: 14px;
-       font-weight: 500;
+       font-size: 18px;
+       font-weight: 300;
        text-align: center;   
-       line-height: 30px;
+       line-height: 40px;
    }
    
    .header-content p{
        font-family: "Netflix-Light", serif;;
-       font-size: 12px;
+       font-size: 16px;
        font-size: 800;
        text-align: center;
        margin-bottom: 10px;
@@ -68,18 +69,18 @@
    
    .header-content input{
        width: 100%;
-       height: 40px;
+       height: 50px;
        margin: 12px 0px 0px 0px;
    }
    
    
    .btn{
-       width: 160px;
-       height: 40px;
+       width: 170px;
+       height: 50px;
    }
    
    .header-content button{
-       font-size: 14px;
+       font-size: 16px;
        height: 38px;
    }
    
@@ -88,7 +89,7 @@
    }
    
    ::placeholder{
-       font-size: 12px;
+       font-size: 14px;
    }
 
 
@@ -103,8 +104,8 @@
    
    .title-bar h4{
        width: 90%;
-       font-size: 16px;
-       font-weight: 400;
+       font-size: 18px;
+       font-weight: 500;
        font-family: "Netflix-Medium", serif;
    
    }
@@ -115,18 +116,18 @@
    
    .wrapper .items{
        margin: 10px 10px;
-       width: 140px;
+       width: 180px;
 
    }
    
    .items img{
-       width: 100px;
-       height: 140px;
+       width: 140px;
+       height: 180px;
    }
 
    
    .items span{
-       font-size: 50px;
+       font-size: 70px;
    }
 
    /* _____third box session________ */
@@ -145,11 +146,11 @@
    }
    
    .heading-h4 h4{
-       font-size: 16px;
+       font-size: 18px;
        width: 98%;
        margin: 0px auto;
        margin-bottom: 20px;
-       font-weight: 400;
+       font-weight: 500;
        font-family: "Netflix-Medium", serif;
    }
    .box-container{
@@ -157,14 +158,16 @@
        justify-content: center;
        align-items: center;
        flex-wrap: wrap;
-       flex-direction: column;
+       flex-direction: row;
    }
    
    .box{
-       height: 160px;
-       width: 100%;
-       margin: 0px 0px 8px 0px ;
-       padding: 20px 20px 20px 20px;
+       aspect-ratio: 4/2;
+       flex: 1 0 0;
+       height: 200px;
+       width: calc(100%/2-10%);
+       margin: 0px 10px 8px 0px;
+       /* padding: 20px 20px 20px 20px; */
    }
    
    .box img{
@@ -172,13 +175,13 @@
    }
    .box h3{
        font-family: "Netflix-Medium", serif;
-       font-size: 16px;   
-       line-height: 10px;
+       font-size: 18px;   
+       line-height: 15px;
        font-weight: 400;
    }
    
    .box p{
-       font-size: 12px;
+       font-size: 14px;
    }
 
 
@@ -192,8 +195,8 @@
    }
    
    .faq-service h3{
-       font-size: 16px;
-       font-weight: 400;
+       font-size: 18px;
+       font-weight: 500;
        font-family: "Netflix-Medium", serif;
    }
    
@@ -205,13 +208,13 @@
    }
    
    .service p{
-       font-size: 15px;
+       font-size: 18px;
        font-family: "Netflix-Medium", serif;
        font-weight: 400;
    }
    
    .service span{
-       font-size: 35px;
+       font-size: 40px;
    }
    
    /* footer input session fourth--- */
@@ -229,7 +232,7 @@
 
 .faq small{
    font-family: "Netflix-Light", serif;
-   font-size: 12px;
+   font-size: 16px;
    margin-top: 30px;
 }
 
@@ -258,7 +261,7 @@
 }
 
 .footer-service p{
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Netflix-Light", serif;
   margin-bottom:30px; 
 }
@@ -273,15 +276,15 @@
 }
 
 .cols a{
-   font-size: 12px;
+   font-size: 14px;
 }
 
 .footer button{
    font-family: "Netflix-Light", serif;
    color: #fff;
    height: 30px;
-   width: 80px;
-   font-size: 10px;
+   width: 100px;
+   font-size: 14px;
 }
 
 .last-footer{
