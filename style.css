@@ -54,6 +54,12 @@ nav img{
     width: 150px;
 }
 
+.title-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .title-btn button{
     font-family: "Netflix-Medium", serif;
     background-color: red;
@@ -67,22 +73,44 @@ nav img{
     text-align: center;
 }
 
-.title-btn .language-btn{
+/* .title-btn .language-btn{
+    padding: 0;
+    width: 100px;
+    height: 30px;
+    text-align: center;
     background:transparent;
     border: 1px solid grey;
-}
+} */
 
 .title-btn button:hover{
     background: transparent;
     border: 1px solid grey;
 }
 
-.title-btn .language-btn:hover{
-    background-color: red;
+/* .title-bar .language-btn{
+    width: 200px;
+    height: 40px;
+} */
+
+.title-btn select{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: #fff;
     outline: none;
-    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    /* padding: 30px 40px; */
+    /* background-color: red; */
+
 }
 
+.title-btn select option{
+    color: #000;
+    border: none;
+    outline: none;
+}
 
 
 
